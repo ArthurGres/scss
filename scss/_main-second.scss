@@ -1,0 +1,68 @@
+.main-second {
+	display: flex;
+	padding-left: 150px;
+	padding-top: 80px;
+}
+.macbook {
+	width: 850px;
+}
+.macbook img {
+	width: 75%;
+}
+
+	
+.macbook_description h1 {
+	font-size: 68px;
+	letter-spacing: -2px;
+	line-height: 46px;
+	color: #314a5b;
+	font-weight: 700;
+	font-family: "Montserrat";
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+.macbook_description h2 {
+	font-size: 26px;
+	line-height: 20px;
+	color: #314a5b;
+	font-weight: 400;
+	font-family: "Open Sans";
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.macbook_description p {
+	font-size: 23px;
+	line-height: 22px;
+	color: #9aa0ab;
+	font-weight: 400;
+	font-family: "Open Sans";
+	margin-bottom: 15px;
+    margin: 0 auto;
+
+}
+.rectangle-text-more {
+	width: 80px;
+	height: 50px;
+	display: flex;
+	margin-top: 50px;
+}
+.rectangle-text-more:hover p, img {
+	color: blue;
+	cursor: pointer;
+	text-decoration: underline;
+	transform: scale(1.1);
+}
+
+.rectangle-text-more  img {
+	margin-top: 3px;
+	width: 20px;
+	height: 15px;
+}
+.rectangle-text-more p {
+	font-size: 14px;
+	line-height: 20px;
+	color: #fa5c65;
+	font-weight: 700;
+	font-family: "Montserrat";
+	text-transform: uppercase;
+}
