@@ -1,0 +1,159 @@
+@media (max-width: 900px) {
+	.menu-toggle {
+		display: flex;
+	}
+	.menu {
+		display: none;
+	}
+
+}
+
+@media (max-width: 950px) {
+	.main-first{
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 0 15px;
+	}
+	.block_peaceofmind {
+		margin-bottom: 50px;
+		max-width: 350px;
+	}
+	.block_actualfree {
+		margin-bottom: 50px;
+		max-width: 350px;
+	}
+	.block_simplepayments {
+		margin-bottom: 50px;
+		max-width: 350px;
+	}
+	
+	.main-second {
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 0 15px;
+	}	
+	.macbook_description h1 {
+		font-size: 30px;
+	}
+	.macbook_description h2 {
+		font-size: 22px;
+	}
+	.macbook_description p {
+		font-size: 18px;
+	}
+	.main-third {
+		padding: 0 15px;
+	}
+	.teammates {
+		flex-wrap: wrap;
+		padding: 0px;
+	}
+
+	.teammates h1 {
+		font-size: 30px;
+	}
+	.teammates h2 {
+		font-size: 22px;
+	}
+	.teammates p {
+		font-size: 18px;
+	}
+	.footer {
+		
+		margin: 0 15px;
+		
+	}
+	.icons img {
+		width: 10px;
+		height: 10px;
+	}
+	.rights img {
+		width: 8px;
+	}
+	.rights {
+		margin: 50px;
+		font-size: 10px;
+	}
+
+    #w {
+        margin: 50px;
+		font-size: 10px;
+    }
+}
+
+
+@media (max-width: 850px) {
+	.main-first{
+		justify-content: flex-start;
+	}
+	.block_peaceofmind {
+	
+		max-width: 100%;
+	}
+	.block_actualfree {
+		
+		max-width: 100%;
+	}
+	.block_simplepayments {
+		
+		max-width: 100%;
+	}
+    #w {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 400px) {
+	.advertisement-text h1 {
+		font-size: 25px;
+	}
+	.main-first {
+		padding: 0 15px;
+	}
+	.main-first h2 {
+		font-size: 20px;
+	}
+	.main-first p {
+		font-size: 18px;
+	}
+	.rectangle-mates {
+		display: none;
+	}
+	.rectangle-text {
+		display: none;
+	}
+	.rights {
+		display: none;
+	}
+	.icons {
+		margin: 10px;
+	}
+    #w {
+        padding: 0 15px;
+        display: none;
+        width: 100px;
+    }
+    .row {
+        width: 100px;
+    }
+    #contactform {
+        width: 100px;
+    }
+    #message.txtarea{
+        width: 150px;
+    }
+    #name.txt {
+        width: 150px;
+    }
+    #email.txt {
+        width: 150px;
+    }
+    #subject.txt {
+        width: 150px;
+    }
+    .center {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
